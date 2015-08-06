@@ -1,0 +1,10 @@
+div.menu-zgw
+	- var big_menus = ['军情观察','军情分析','航空知识','军事天地','文化宣传','新闻汇总']
+	- for(var i=0;i<big_menus.length;i++)
+		div.menu-zgw__block
+			ul.menu-zgw__block__list
+				li.menu-zgw__block__list__title(jaqen-type="link",jaqen-key="big-menu-#{i}")
+					a #{big_menus[i]}
+				- for(var n=0,len=4;n<len;n++)
+					li.menu-zgw__block__list__item(jaqen-type="link",jaqen-key="small-menu-#{i}")
+						a 菜单

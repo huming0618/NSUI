@@ -1,0 +1,19 @@
+doctype html
+html
+	head
+		meta(charset="UTF-8")
+		title zgw
+		link(href="base/styles/compass-blueprint.css", rel="stylesheet")
+		link(href="bower_components/font-awesome/css/font-awesome.min.css", rel="stylesheet")
+		link(href="styles/style.css", rel="stylesheet")
+		script(src="bower_components/requirejs/require.js")
+		script(src="build/app.js")
+		style(type="text/css")
+			|.container{margin:60px auto;width: 1000px}
+	body
+		div.container
+			div.span-12
+				include zgw-add-module.jade
+		div.container
+			div.span-4
+				include component/zgw-tab-menu/component.jade

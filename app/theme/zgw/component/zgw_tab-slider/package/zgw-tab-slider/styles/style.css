@@ -1,0 +1,28 @@
+/* line 5, ../../../scss/style.scss */
+.zgw-tab-slider {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, ../../../scss/style.scss */
+.zgw-tab-slider__body {
+  height: 100%;
+  overflow: hidden;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  width: 3000px;
+}
+
+/* line 22, ../../../scss/style.scss */
+.zgw-tab-slider__body__block {
+  width: 900px;
+  height: 100%;
+  clear: none;
+  float: left;
+  margin: 0;
+  padding-left: 10px;
+}

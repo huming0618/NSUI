@@ -1,0 +1,53 @@
+@import "variables.scss";
+@import "color.scss";
+@import "font.scss";
+
+.sitemap-zgw{
+	overflow: hidden;
+	padding: $padding_v $padding_h;
+	border-top:$top_border_size $top_border_style $top_border_color;
+	width: 100%;
+	margin: 0;
+	background-color: $bg_color;
+}
+
+.sitemap-zgw__row{
+	line-height: $line_height;
+  	margin: $row_line_margin;
+  	overflow: hidden;
+  	font-size: $font_size;
+  	font-family: $link-fontfamily;
+  	clear: both;
+}
+
+.sitemap-zgw__row__title{
+	float: left;
+	color: $title_color;
+	font-weight: bold;
+	display: block;
+	width: $title_width;
+	height: auto;
+}
+
+.sitemap-zgw__row__list{
+	float: left;
+  	width: $row_links_width;
+  	margin-bottom: 3px;
+}
+
+.sitemap-zgw__row__list__item{
+	margin-right: $link_margin_right;
+	float: left;
+	display: block;
+	a{
+		color: $link_color;
+		cursor: pointer;
+		text-decoration: none;
+		zoom: 1;
+		&:hover{
+			color: $link-hover;
+		}
+	}
+}
+
+

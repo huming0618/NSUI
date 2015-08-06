@@ -1,0 +1,48 @@
+@import "variables.scss";
+@import "color.scss";
+@import "font.scss";
+@import "mixin.scss";
+
+.topheader-zgw{
+	@include fix-me;
+	width: 100%;
+}
+
+.topheader-zgw__main{
+	margin: 0;
+	padding: 0;
+	height: $height;
+	border-top: $border_top_height solid $top_border_color;
+	border-bottom: $border_bottom_height solid $top_bottom_color;
+	background-color: $bg_color;
+}
+
+.topheader-zgw__main__block__menu{
+	display: block;
+	height: $height;
+	margin: 0px;
+}
+
+.topheader-zgw__main__block__menu__item{
+	display: block;
+	height: 100%;
+	margin-left:0px;
+	//width: $block_item_width;
+	float: left;
+	a{
+		display: block;
+		color: #000;
+		padding-left: 15px;
+		padding-right: 15px;
+		min-width: $block_item_width;
+		height: 100%;
+		line-height: $height - 2;
+		text-decoration: none;
+		text-align: center;
+		font-size: 12px;
+		&:hover{
+			color: $top_border_color;
+			background-color: $top_bottom_color;
+		}
+	}
+}

@@ -1,0 +1,50 @@
+@import "variables.scss";
+
+@mixin center-block {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@mixin opacity($opacity:50) {
+  opacity: $opacity / 100;
+  filter: alpha(opacity=$opacity);
+}
+
+@mixin box-shadow($shadow...) {
+  box-shadow:$shadow;
+}
+
+@mixin fix-me($top: 0, $left:0){
+	position: fixed;
+	top: $top;
+	left: $left;
+}
+
+@mixin news-block{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	min-height: $newsblock_min_height;
+	overflow: hidden;
+}
+
+@mixin news-block__list{
+	display: block;
+	overflow: hidden;
+	margin-top: $newsblock_list_margintop;
+	width: 100%;
+	clear: both;
+	padding-left: $newsblock_list_paddingleft;
+	list-style:disc inside none !important;
+}
+
+@mixin news-block__list__item($newsblock_listitem_color : '#252525'){
+	line-height: $newsblock_listitem_height;
+	height: $newsblock_listitem_height;
+	overflow: hidden;
+	font-size: $newsblock_listitem_fontsize;
+	a {
+		color: $newsblock_listitem_color;
+		text-decoration: none;
+	}
+}

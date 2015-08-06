@@ -1,0 +1,17 @@
+div.topheader-zgw
+	div.topheader-zgw__main
+		div.container(style="height:100%;margin-top:0;")
+			div.topheader-zgw__main__block.span-12
+				ul.topheader-zgw__main__block__menu
+					- var left_menu = ['设为首页','顶部菜单','顶部菜单'];
+					- for(var i=0;i<left_menu.length;i++)
+						li.topheader-zgw__main__block__menu__item
+							a(href="#") #{left_menu[i]}
+			div.topheader-zgw__main__block.span-12.push-2
+				ul.topheader-zgw__main__block__menu
+					li.topheader-zgw__main__block__menu__item.topheader-zgw__main__block__menu__login
+						a(href="#") 登录
+					- var right_menu = ['注册','顶部菜单','顶部菜单'];
+					- for(var i=0,len=right_menu.length;i<len;i++)
+						li.topheader-zgw__main__block__menu__item
+							a(href="#") #{right_menu[i]}

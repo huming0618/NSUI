@@ -1,0 +1,54 @@
+/* line 10, ../../scss/style.scss */
+.zgw-builder__add-module {
+  width: 90%;
+  height: 60px;
+  line-height: 60px;
+  clear: both;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px dashed gray;
+  background-color: #FFFFFF;
+  color: #909090;
+}
+/* line 22, ../../scss/style.scss */
+.zgw-builder__add-module:hover {
+  color: #FFF;
+  background-color: #7DC097;
+}
+
+/* line 28, ../../scss/style.scss */
+.zgw-builder__add-module__icon {
+  display: inline-block;
+  margin: auto;
+  padding: 6px 0 0 0;
+  vertical-align: middle;
+}
+
+/* line 35, ../../scss/style.scss */
+.mod-zgw-tabblock {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  min-height: 300px;
+  overflow: hidden;
+}
+
+/* line 39, ../../scss/style.scss */
+.mod-zgw-tabblock__menu {
+  clear: both;
+  max-height: 120px;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* line 47, ../../scss/style.scss */
+.mod-zgw-tabblock__body {
+  height: 160px;
+  overflow: hidden;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}

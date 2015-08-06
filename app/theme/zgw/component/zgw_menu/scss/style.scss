@@ -1,0 +1,56 @@
+@import "variables.scss";
+@import "color.scss";
+@import "font.scss";
+
+.menu-zgw{
+	overflow: hidden;
+	padding: $padding_v $padding_h;
+	border-top:$top_border_size $top_border_style $top_border_color;
+}
+
+.menu-zgw__block{
+	width: $block_width;
+	height: $block_height;
+	padding-left: 1px;
+	padding-right: 1px;
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+	border-right: 1px dotted $block_border_color;
+}
+
+.menu-zgw__block__list{
+	width: $block_width;
+	padding-left: 0px;
+	overflow: hidden;
+}
+
+.menu-zgw__block__list__item{
+	padding-right: 14px;
+	font-size: 13px;
+	float: left;
+	display: block;
+	a{
+		color: $link-fontcolor;
+		text-decoration: none;
+		line-height: 26px;
+		letter-spacing: 2px;
+		font-family: $link-fontfamily;
+		font-size: 14px;
+		cursor: pointer;
+		&:hover{
+			color: $link-fontcolor-hover;
+		}
+	}
+}
+
+.menu-zgw__block__list__title{
+	@extend .menu-zgw__block__list__item;
+	a{
+		font-weight: bold;
+		font-size: 14px;
+		display: block;
+		width: 40px;
+	}
+}
+

@@ -1,0 +1,54 @@
+@import "mixin.scss";
+
+$builder_addmod_icon_color: #909090;
+$builder_addmod_icon_hover_color: #FFF;
+$builder_addmod_height: 60px;
+$builder_addmod_border: 1px dashed gray;
+$builder_addmod_bgcolor: #FFFFFF;
+$builder_addmod_hover_bgcolor: #7DC097;
+
+.zgw-builder__add-module {
+	width: 90%;
+	height: $builder_addmod_height;
+	line-height: $builder_addmod_height;
+	clear: both;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	border: $builder_addmod_border;
+	background-color: $builder_addmod_bgcolor;
+	color: $builder_addmod_icon_color;
+
+	&:hover{
+		color: $builder_addmod_icon_hover_color;
+		background-color: $builder_addmod_hover_bgcolor;
+	}
+}
+
+.zgw-builder__add-module__icon {
+	display:inline-block;
+	margin:auto;
+	padding: 6px 0 0 0;
+	vertical-align: middle;
+}
+
+.mod-zgw-tabblock{
+	@include news-block();
+}
+
+.mod-zgw-tabblock__menu{
+	clear: both;
+	max-height: 120px;
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+}
+
+.mod-zgw-tabblock__body{
+	height: 160px;
+	overflow: hidden;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}

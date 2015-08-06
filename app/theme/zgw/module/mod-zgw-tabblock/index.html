@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>module</title>
+    <link href="/base/styles/compass-blueprint.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="theme/build/styles/style.css" rel="stylesheet">
+    <link href="theme/component/zgw-tab-slider/package/zgw-tab-slider/styles/style.css" rel="stylesheet">
+    <link href="theme/component/zgw-tab-menu/package/zgw-tab-menu/styles/style.css" rel="stylesheet">
+    <script src="bower_components/requirejs/require.js"></script>
+    <style type="text/css">.container{margin:60px auto;width: 1000px}</style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="span-10 push-8">
+        <div jaqen-mod="mod-zgw-tabblock" class="mod-zgw-tabblock">
+          <div class="mod-zgw-tabblock__menu">
+            <ul jaqen-role="jaqenTabMenu" class="zgw-tab-menu">
+              <li class="zgw-tab-menu__item-active"><a href="#" target="_blank">标题一</a></li>
+              <li class="zgw-tab-menu__item"><a href="#" target="_blank">标题二</a></li>
+              <li class="zgw-tab-menu__item"><a href="#" target="_blank">标题三</a></li>
+            </ul>
+          </div>
+          <div class="mod-zgw-tabblock__body">
+            <div jaqen-role="jaqenTabSlider" class="zgw-tab-slider">
+              <div class="zgw-tab-slider__body">
+                <div class="zgw-tab-slider__body__block">
+                  <div class="zgw-builder__add-module">
+                    <div class="zgw-builder__add-module__icon"><i class="fa fa-plus-circle fa-3x"></i></div>
+                  </div>
+                </div>
+                <div class="zgw-tab-slider__body__block">
+                  <div class="zgw-builder__add-module">
+                    <div class="zgw-builder__add-module__icon"><i class="fa fa-plus-circle fa-3x"></i></div>
+                  </div>
+                </div>
+                <div class="zgw-tab-slider__body__block">
+                  <div class="zgw-builder__add-module">
+                    <div class="zgw-builder__add-module__icon"><i class="fa fa-plus-circle fa-3x"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="build/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* line 5, ../../../scss/style.scss */
+.menu-zgw {
+  overflow: hidden;
+  padding: 10px 9px;
+  border-top: 3px solid #326433;
+}
+
+/* line 11, ../../../scss/style.scss */
+.menu-zgw__block {
+  width: 150px;
+  height: 50px;
+  padding-left: 1px;
+  padding-right: 1px;
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+  border-right: 1px dotted #DDD;
+}
+
+/* line 22, ../../../scss/style.scss */
+.menu-zgw__block__list {
+  width: 150px;
+  padding-left: 0px;
+  overflow: hidden;
+}
+
+/* line 28, ../../../scss/style.scss */
+.menu-zgw__block__list__item, .menu-zgw__block__list__title {
+  padding-right: 14px;
+  font-size: 13px;
+  float: left;
+  display: block;
+}
+/* line 33, ../../../scss/style.scss */
+.menu-zgw__block__list__item a, .menu-zgw__block__list__title a {
+  color: #242424;
+  text-decoration: none;
+  line-height: 26px;
+  letter-spacing: 2px;
+  font-family: 微软雅黑, SimHei;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* line 41, ../../../scss/style.scss */
+.menu-zgw__block__list__item a:hover, .menu-zgw__block__list__title a:hover {
+  color: #D24A44;
+}
+
+/* line 49, ../../../scss/style.scss */
+.menu-zgw__block__list__title a {
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  width: 40px;
+}

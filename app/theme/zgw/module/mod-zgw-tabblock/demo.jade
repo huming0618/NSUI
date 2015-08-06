@@ -1,0 +1,24 @@
+doctype html
+html
+	head
+		meta(charset="UTF-8")
+		title module
+		link(href="/base/styles/compass-blueprint.css", rel="stylesheet")
+		link(href="bower_components/font-awesome/css/font-awesome.min.css", rel="stylesheet")
+		link(href="theme/build/styles/style.css", rel="stylesheet")
+		link(href="theme/component/zgw-tab-slider/package/zgw-tab-slider/styles/style.css", rel="stylesheet")
+		link(href="theme/component/zgw-tab-menu/package/zgw-tab-menu/styles/style.css", rel="stylesheet")
+		
+		script(src="bower_components/requirejs/require.js")
+		
+		style(type="text/css")
+			|.container{margin:60px auto;width: 1000px}
+	body
+		div.container
+			div.span-10.push-8
+				div.mod-zgw-tabblock(jaqen-mod="mod-zgw-tabblock")
+					div.mod-zgw-tabblock__menu
+						include ../../component/zgw-tab-menu/component.jade
+					div.mod-zgw-tabblock__body
+						include ../../component/zgw-tab-slider/component.jade
+		script(src="build/app.js")

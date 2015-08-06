@@ -1,0 +1,34 @@
+@import "variables.scss";
+@import "color.scss";
+@import "font.scss";
+@import "zgw/mixin.scss";
+
+.news-block-zgw{
+	@include news-block();
+}
+
+.news-block-zgw__head{
+	margin-bottom: 0;
+	height: $head-height;
+	border-bottom: $bottom_bordersize solid $bottom_bordercolor;
+	h4 {
+		height: $head_height;
+  		line-height: $head_height;
+  		text-align: left;
+  		margin-left: $head_marginleft;
+		float: left;
+		font-size: $head_fontsize;
+		font-weight: bold;
+		font-family: $head_font;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.news-block-zgw__list{
+	@include news-block__list();
+}
+
+.news-block-zgw__list__item{
+	@include news-block__list__item($listitem_color);
+}

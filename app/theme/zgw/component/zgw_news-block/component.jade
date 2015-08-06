@@ -1,0 +1,8 @@
+div.news-block-zgw
+	div.news-block-zgw__head
+		h4 我的标题
+	ul.news-block-zgw__list
+		- var news_titles = ['国家主席习近平任免驻外大使','空军空余房地产租赁管理政策重大调整','南海，中国不怕兴风作浪','常万全会见智利空军司令','马晓天会见智利空军司令']
+		- for(var i=0;i<news_titles.length;i++)
+			li.news-block-zgw__list__item
+				a(href="#",target="_blank") #{news_titles[i]}

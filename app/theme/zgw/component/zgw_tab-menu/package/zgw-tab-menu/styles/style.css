@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* line 5, ../../../scss/style.scss */
+.zgw-tab-menu {
+  padding: 0px;
+  width: 100%;
+  height: 35px;
+  position: relative;
+  zoom: 1;
+  list-style: none;
+  line-height: 34px;
+  border-bottom: 1px solid #ccc;
+  clear: both;
+  font-family: "微软雅黑", "黑体";
+}
+
+/* line 18, ../../../scss/style.scss */
+.zgw-tab-menu__item, .zgw-tab-menu__item-active {
+  width: 110px;
+  float: left;
+  height: 35px;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+}
+/* line 25, ../../../scss/style.scss */
+.zgw-tab-menu__item a, .zgw-tab-menu__item-active a {
+  text-decoration: none;
+}
+
+/* line 30, ../../../scss/style.scss */
+.zgw-tab-menu__item-active {
+  border: 1px solid #ddd;
+  border-top: 2px solid #326433;
+  border-bottom: none;
+  background: #FFF;
+  height: 34px;
+  _top: 1px;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* line 40, ../../../scss/style.scss */
+.zgw-tab-menu__item-active a {
+  text-decoration: none;
+}

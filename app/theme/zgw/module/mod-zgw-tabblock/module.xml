@@ -1,0 +1,17 @@
+<!-- Name: 水平菜单模块 -->
+<!-- Description: 水平菜单模块 -->
+<module id="mod-zgw-tabblock">
+	<name>水平菜单模块</name>
+	<description>水平菜单模块</description>
+	<main>
+		<div class="mod-zgw-tabblock" jaqen-mod="mod-zgw-tabblock">
+			<div class="mod-zgw-tabblock__menu">
+				<jaqen-component component="zgw-tab-menu"></jaqen-component>
+			</div>
+			<div class="mod-zgw-tabblock__body">
+				<jaqen-component component="zgw-tab-slider"></jaqen-component>
+			</div>
+		</div>
+	</main>
+</module>
+

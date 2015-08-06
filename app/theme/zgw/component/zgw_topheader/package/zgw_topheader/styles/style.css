@@ -1,0 +1,50 @@
+/* line 6, ../../../scss/style.scss */
+.topheader-zgw {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* line 11, ../../../scss/style.scss */
+.topheader-zgw__main {
+  margin: 0;
+  padding: 0;
+  height: 41px;
+  border-top: 3px solid #ff8500;
+  border-bottom: 1px solid #EDEEF0;
+  background-color: #FCFCFC;
+}
+
+/* line 20, ../../../scss/style.scss */
+.topheader-zgw__main__block__menu {
+  display: block;
+  height: 41px;
+  margin: 0px;
+}
+
+/* line 26, ../../../scss/style.scss */
+.topheader-zgw__main__block__menu__item {
+  display: block;
+  height: 100%;
+  margin-left: 0px;
+  float: left;
+}
+/* line 32, ../../../scss/style.scss */
+.topheader-zgw__main__block__menu__item a {
+  display: block;
+  color: #000;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: 40px;
+  height: 100%;
+  line-height: 39px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+}
+/* line 43, ../../../scss/style.scss */
+.topheader-zgw__main__block__menu__item a:hover {
+  color: #ff8500;
+  background-color: #EDEEF0;
+}

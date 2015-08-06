@@ -1,0 +1,5 @@
+{
+	"dependency": {
+		"css":['compass-blueprint', 'zgw']
+	}
+}

@@ -1,0 +1,22 @@
+doctype html
+html
+	head
+		meta(charset="UTF-8")
+		title zgw-tabblock
+		link(href="/base/styles/compass-blueprint.css", rel="stylesheet")
+		link(href="styles/style.css", rel="stylesheet")
+		link(href="component/zgw-tab-menu/package/styles/style.css", rel="stylesheet")
+		script(src="bower_components/requirejs/require.js")
+		script(src="build/app.js")
+		style(type="text/css")
+			|.container{margin:60px auto;width: 1000px}
+	body
+		div.container
+			div.span-12
+				div.mod-zgw-tabblock
+					div.mod-zgw-tabblock__menu
+						include ../zgw-tab-menu/component.jade
+					div.mod-zgw-tabblock__body
+						include component.jade
+		script(src="js/component.js")
+		script(src="js/demo.js")
